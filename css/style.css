@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fdfdfd;
+    font-family: sans-serif, serif, gabriola;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, #c8150fa4, transparent);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    font-size: 1em;
+    background-color: black;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    height: 50px;
+    width: 70%;
+    margin: auto;
+    line-height: 50px;
+    display: flex;
+    font-size: 0.55rem;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+}
+
+header h1 {
+    height: 100%;
+    width: 40%;
+    color: #c8140f;
+}
+
+header nav {
+    height: 100%;
+    width: 60%;
+}
+
+nav ul li {
+    padding: 0 5px;
+    list-style: none;
+}
+
+section.banniere {
+    display: flex;
+    height: 100vh;
+    width: auto;
+}
+
+section.left {
+    width: 45%;
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+}
+
+section.banniere p:nth-child(1) {
+    padding-top: 30%;
+    padding-bottom: 20px;
+    font-size: .9rem;
+}
+
+section h2 {
+    font-size: 3rem;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+section.droite {
+    width: 55%;
+    height: 100%;
+    background: radial-gradient(transparent, black 70%), url(../image/37+\ Trendy\ Ideas\ Hat\ Photography\ Inspiration\ Black\ White.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+section button {
+    margin-top: 20px;
+    padding: 7.5px 15px;
+    border-radius: 2.5px;
+    background-color: #c8140f;
+    border: none;
+}
+
+section.about {
+    display: flex;
+    min-height: 400px;
+}
+
+section.left {
+    position: relative;
+}
+
+section.about section.left h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid #c8140f;
+}
+
+section h2 {
+    position: relative;
+}
+
+.service h2 span {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c8140f;
+}
+
+section.about section.left {
+    width: 45%;
+    background: radial-gradient(transparent, black 75%), url(../image/87\ db\ by\ Steven\ Bassilieaux\ _\ 500px.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+section.about section.droite {
+    background: none;
+}
+
+section.droite p {
+    padding-top: 20px;
+}
+
+button.first {
+    background: #c8140f;
+    padding: 10px 20px;
+    margin-right: 25px;
+}
+
+button.second {
+    background: black;
+    padding: 10px 20px;
+    border: 1px solid #c8140f;
+}
+
+section.service h2 {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+section.service p {
+    text-align: center;
+    padding: 10px 0;
+}
+
+section.service .big {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80vh;
+}
+
+.big .block {
+    width: 45%;
+    height: 45%;
+    font-size: 0.75rem;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/Paperology.png);
+}
+
+.block .image {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.block:nth-child(1) .image {
+    background-color: #3dbdf888;
+}
+
+.block:nth-child(2) .image {
+    background-color: #fcd04e88;
+}
+
+.block:nth-child(3) .image {
+    background-color: #c8150f75;
+}
+
+.block:nth-child(4) .image {
+    background-color: #5abc5688;
+}
+
+.image h2 {
+    padding-top: 15%;
+}
+
+button:focus {
+    outline: none;
+}
